@@ -1,0 +1,79 @@
+GitHub Desktop Exercise
+
+
+Step 1 and 2:
+
+	- Download and install GitHub Desktop from official website
+	- Configure your global username and email
+
+Step 3: (Initialization)
+
+	- In GitHub desktop, click 'File' then 'New Repository'
+	- Name the repository "GitAdventure" and choose the local path where you want to store it
+	- Click 'Create Repository'
+	- Right click on the repository in Github Desktop and select 'Reveal in Finder' (for Mac)
+
+Step 4: (Staging and Committing)
+
+	- In repository folder, create a new file called 'journey.txt'. Add the following text to file ("Embarking on my journey to master Git") then save.
+	- GitHub Desktop will detect the file
+	- In changes tab, check the box next to journey.txt to stage it
+	- Enter commit message 'Initial commit with journey.txt' then click 'Commit to main'
+
+Step 5: (Deletion)
+
+	- In repository folder, create a file named 'temp.txt' and add 'This file is meant to be deleted'
+	- Stage with message 'Prepare temp.txt for deletion'
+	- Delete temp.txt
+	- GitHub Desktop will detect the deletion
+	- Stage the change and commit with message 'Delete temp.txt'
+
+Step 6: (Renaming)
+
+	- Rename journey.txt to adventure.txt and update content with 'My journey evolves into an adventure with Git'
+	- GitHub desktop will recognize the change. Stage and commit with message: "Rename journey.txt to adventure.txt and update"
+	
+Step 7: (Ignoring Files)
+
+	- In repository folder, create a .gitignore file and add *.log (ignores all files ending in .log)
+	- In GitHub desktop, stage and commit changes with message 'Add .gitignore to ignore all log files'
+	- Create dummy file named test.log in repository folder
+	- GitHub Desktop should ignore the file just created and not list file under Changes due to .gitignore rule
+
+Step 8: (Diving Deeper)
+
+	- Add content 'Exploring the depths of Git commands and their powers' to adventure.txt
+	- Stage and commit with message: "Update adventure.txt with exploration insights"
+
+Step 9: (History and Restoration)
+
+	- You can view a repository's history by clicking on the 'History' tab
+	- Github desktop does not directly support reverting a file to a previous commit. Therefore, revert changes by manually  editing the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
